@@ -1,0 +1,44 @@
+{
+  "name": "angular-gladepay",
+  "version": "1.0.6",
+  "peerDependencies": {
+    "@angular/common": "^8.0.3",
+    "@angular/core": "^8.0.3",
+    "ng-packagr": "^9.1.5"
+  },
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json"
+  },
+  "keywords": [
+    "angular",
+    "glade",
+    "gladepay",
+    "payment",
+    "transactions",
+    "card",
+    "ussd",
+    "bank",
+    "qr_pay",
+    "mobilemoney"
+  ],
+  "author": {
+    "email": "danstevea@gmail.com",
+    "name": "Dansteve Adekanbi",
+    "url": "https://github.com/dansteve",
+    "website": "https://meetdansteve.com/"
+  },
+  "license": "MIT",
+  "description": "Angular wrapper for integrating gladepay transactions",
+  "main": "bundles/angular-gladepay.umd.js",
+  "module": "fesm5/angular-gladepay.js",
+  "es2015": "fesm2015/angular-gladepay.js",
+  "esm5": "esm5/angular-gladepay.js",
+  "esm2015": "esm2015/angular-gladepay.js",
+  "fesm5": "fesm5/angular-gladepay.js",
+  "fesm2015": "fesm2015/angular-gladepay.js",
+  "typings": "angular-gladepay.d.ts",
+  "metadata": "angular-gladepay.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "gladepay",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
