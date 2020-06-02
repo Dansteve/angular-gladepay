@@ -193,6 +193,6 @@ Don't forget to [follow me on twitter](https://twitter.com/dansteveade)!
 Thanks!
 Dansteve Adekanbi.
 
-## License
+## License 
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
