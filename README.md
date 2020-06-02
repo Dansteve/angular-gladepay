@@ -70,16 +70,15 @@ And then in your `component.ts`
     styleUrls: ['./app.component.css']
   })
   export class AppComponent implements OnInit {
-    reference = '';
     constructor() {}
 
     paymentInit() {
       console.log('Payment initialized');
     }
 
-    paymentDone(ref: any) {
-      this.title = 'Payment successfull';
-      console.log(this.title, ref);
+    paymentDone(info: any) {
+      this.title = 'Payment successful';
+      console.log(this.title, info);
     }
 
     paymentCancel() {
@@ -127,9 +126,9 @@ And then in your `component.ts`
       console.log('Payment initialized');
     }
 
-    paymentDone(ref: any) {
-      this.title = 'Payment successfull';
-      console.log(this.title, ref);
+    paymentDone(info: any) {
+      this.title = 'Payment successful';
+      console.log(this.title, info);
     }
 
     paymentCancel() {

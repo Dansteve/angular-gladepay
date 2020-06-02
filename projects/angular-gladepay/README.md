@@ -70,16 +70,15 @@ And then in your `component.ts`
     styleUrls: ['./app.component.css']
   })
   export class AppComponent implements OnInit {
-    reference = '';
     constructor() {}
 
     paymentInit() {
       console.log('Payment initialized');
     }
 
-    paymentDone(ref: any) {
-      this.title = 'Payment successfull';
-      console.log(this.title, ref);
+    paymentDone(info: any) {
+      this.title = 'Payment successful';
+      console.log(this.title, info);
     }
 
     paymentCancel() {
@@ -127,9 +126,9 @@ And then in your `component.ts`
       console.log('Payment initialized');
     }
 
-    paymentDone(ref: any) {
-      this.title = 'Payment successfull';
-      console.log(this.title, ref);
+    paymentDone(info: any) {
+      this.title = 'Payment successful';
+      console.log(this.title, info);
     }
 
     paymentCancel() {
@@ -151,8 +150,7 @@ and this in your component
     angular-gladepay
     [MID]="'MID2'"
     [email]="'mailexample@mail.com'"
-    [amount]="5000000"
-    [ref]="reference"
+    [amount]="5000"
     [class]="'btn btn-primary'"
     (paymentInit)="paymentInit()"
     (close)="paymentCancel()"
@@ -168,7 +166,7 @@ Then `MID2` would be used instead
 
 |Name                   | Type           | Required            | Default Value       | Description         |
 |-----------------------|----------------|---------------------|---------------------|---------------------|
-|  `amount `            | `number`       | true                |  undefined          | Amount to withdraw (in kobo for NGN)
+|  `amount `            | `number`       | true                |  undefined          | Amount to withdraw
 |  `email `             | `string`       | true                |  undefined          | The customer's email address.
 |  `MID`                | `string`       | true                |  undefined          | Your MID from Gladepay. Use test MID for test mode and live MID for live mode
 |  `callback`           | `function`     | true                |  undefined          | A function called when transaction is successful. Returns an object containing unique reference
@@ -194,6 +192,6 @@ Don't forget to [follow me on twitter](https://twitter.com/dansteveade)!
 Thanks!
 Dansteve Adekanbi.
 
-## License
+## License 
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
