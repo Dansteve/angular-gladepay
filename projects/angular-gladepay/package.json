@@ -1,6 +1,6 @@
 {
   "name": "angular-gladepay",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "peerDependencies": {
     "@angular/common": "^8.0.3",
     "@angular/core": "^8.0.3",
@@ -27,7 +27,15 @@
     "url": "https://github.com/dansteve",
     "website": "https://meetdansteve.com/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dansteve/angular-gladepay.git"
+  },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dansteve/angular-gladepay/issues"
+  },
+  "homepage": "https://github.com/dansteve/angular-gladepay#readme",
   "description": "Angular wrapper for integrating gladepay transactions",
   "main": "bundles/angular-gladepay.umd.js",
   "module": "fesm5/angular-gladepay.js",

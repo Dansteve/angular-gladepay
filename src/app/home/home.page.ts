@@ -1,4 +1,4 @@
-import { GladepayOptions } from 'angular-gladepay';
+import { GladepayOptions } from 'projects/angular-gladepay/src/public_api';
 import { Component } from '@angular/core';
 
 @Component({

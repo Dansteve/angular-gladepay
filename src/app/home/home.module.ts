@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
-import { AngularGladepayModule } from 'angular-gladepay';
+import { AngularGladepayModule } from 'projects/angular-gladepay/src/public_api';
 
 
 @NgModule({

@@ -8,7 +8,8 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { AngularGladepayModule } from 'angular-gladepay';
+import { AngularGladepayModule } from 'projects/angular-gladepay/src/public_api';
+
 
 @NgModule({
   declarations: [AppComponent],
